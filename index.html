@@ -196,7 +196,8 @@
                 role="tabpanel"
                 aria-label="Rounds Tab"
                 tabindex="0"
-            >
+                style="display: none;"
+            >            
                 <h1 class="mode-page-header">Rounds</h1>
                 <div
                     id="roundUpdated"
@@ -292,6 +293,14 @@
                     >New Round
                 </button>
             </div>
+            <br>
+            <div
+                id="rounds-react-root"
+                class="hidden"  
+                role="tabpanel"
+                aria-label="Rounds Tab"></div>
+>
+                
             <div
                 id="coursesModeTab"
                 role="tabpanel"
@@ -1598,6 +1607,7 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+     
         <script src="scripts/main.js"></script>
         <script src="scripts/sideMenu.js"></script>
         <script src="scripts/modeTabs.js"></script>
@@ -1609,5 +1619,8 @@
         <script src="scripts/modeActions.js"></script>
         <script src="scripts/populateTestUser.js"></script>
         <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script  src="/react-rounds/build/static/js/main.b71616c8.js"></script>
+        <link rel="stylesheet" href="/react-rounds/build/static/css/main.1bdfd479.css" />
+
     </body>
 </html>
